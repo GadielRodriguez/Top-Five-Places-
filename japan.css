@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#back {
+    
+    background-image: url("japan_pic.jpg");
+    background-size: 100% 80vh; /* Set width to 100% and height to 60% of viewport height */
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 60vh; /* Set the height of the body to 60% of the viewport height */
+}
+
+nav{
+    background: rgb(219, 146, 159);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    
+    
+}
+
+#nav ul li{
+    list-style: none;/*doesnt give it the bullits*/
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+
+
+h1 {
+    font-size: 10em;
+    color: rgb(35, 181, 218);
+    text-align: center;
+    margin-top: 200px;
+}
+
+h2{
+    margin-top: 400px;
+    padding-left: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    background-color: rgb(219, 146, 159);
+}
